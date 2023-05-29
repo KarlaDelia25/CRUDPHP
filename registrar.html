@@ -16,28 +16,30 @@
           <h1 class="h3 mb-3 fw-normal">Por favor,crea la cuenta</h1>
       
           <div class="form-floating">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <input type="email" class="form-control" id="correo" placeholder="name@example.com">
             <label for="floatingInput">Dirección de email</label>
           </div>
           <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <input type="password" class="form-control" id="password" placeholder="Password">
             <label for="floatingPassword">Contraseña</label>
           </div>
           <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <input type="nombre" class="form-control" id="nombre" placeholder="Nombre">
             <label for="floatingInput">Nombre</label>
           </div>
+          <input type="button" class="w-100 btn btn-lg btn-primary" onclick="registrarUsuario()" value="Registrar">
       
           <a href="index.html" class="w-100 btn btn-lg btn-primary my-3" type="submit">Iniciar sesion</a>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">Registrarse</button>
+        
           <p class="mt-5 mb-3 text-body-secondary">&copy; 2023</p>
         </form>
       </main>
 
 
-
-
+      <script src="funciones.js"></script>
+      <script src="mainLogin.js"></script>
       <script src="js/bootstrap.bundle.min.js" ></script>
-    <script src="main.js" ></script>
+      <script src="sweetalert2.all.min.js" ></script>
+
 </body>
 </html>
